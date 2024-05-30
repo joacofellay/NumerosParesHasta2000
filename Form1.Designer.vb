@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         txtBoton = New Button()
         txtLabel1 = New Label()
+        txtMostrar = New ListBox()
         SuspendLayout()
         ' 
         ' txtBoton
@@ -44,11 +45,20 @@ Partial Class Form1
         txtLabel1.TabIndex = 1
         txtLabel1.Text = "Label1"
         ' 
+        ' txtMostrar
+        ' 
+        txtMostrar.FormattingEnabled = True
+        txtMostrar.Location = New Point(43, 103)
+        txtMostrar.Name = "txtMostrar"
+        txtMostrar.Size = New Size(210, 324)
+        txtMostrar.TabIndex = 2
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(13F, 32F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(txtMostrar)
         Controls.Add(txtLabel1)
         Controls.Add(txtBoton)
         Name = "Form1"
@@ -59,5 +69,6 @@ Partial Class Form1
 
     Friend WithEvents txtBoton As Button
     Friend WithEvents txtLabel1 As Label
+    Friend WithEvents txtMostrar As ListBox
 
 End Class
