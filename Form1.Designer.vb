@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         txtBoton = New Button()
-        txtLabel1 = New Label()
         txtMostrar = New ListBox()
         SuspendLayout()
         ' 
@@ -36,21 +35,12 @@ Partial Class Form1
         txtBoton.Text = "EjecutarAlgoritmo"
         txtBoton.UseVisualStyleBackColor = True
         ' 
-        ' txtLabel1
-        ' 
-        txtLabel1.AutoSize = True
-        txtLabel1.Location = New Point(18, 18)
-        txtLabel1.Name = "txtLabel1"
-        txtLabel1.Size = New Size(83, 32)
-        txtLabel1.TabIndex = 1
-        txtLabel1.Text = "Label1"
-        ' 
         ' txtMostrar
         ' 
         txtMostrar.FormattingEnabled = True
-        txtMostrar.Location = New Point(43, 103)
+        txtMostrar.Location = New Point(43, 7)
         txtMostrar.Name = "txtMostrar"
-        txtMostrar.Size = New Size(210, 324)
+        txtMostrar.Size = New Size(241, 420)
         txtMostrar.TabIndex = 2
         ' 
         ' Form1
@@ -59,16 +49,13 @@ Partial Class Form1
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(txtMostrar)
-        Controls.Add(txtLabel1)
         Controls.Add(txtBoton)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Friend WithEvents txtBoton As Button
-    Friend WithEvents txtLabel1 As Label
     Friend WithEvents txtMostrar As ListBox
 
 End Class
