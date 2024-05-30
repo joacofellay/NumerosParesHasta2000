@@ -28,9 +28,9 @@ Partial Class Form1
         ' 
         ' txtBoton
         ' 
-        txtBoton.Location = New Point(499, 203)
+        txtBoton.Location = New Point(482, 269)
         txtBoton.Name = "txtBoton"
-        txtBoton.Size = New Size(219, 46)
+        txtBoton.Size = New Size(368, 304)
         txtBoton.TabIndex = 0
         txtBoton.Text = "EjecutarAlgoritmo"
         txtBoton.UseVisualStyleBackColor = True
@@ -40,14 +40,14 @@ Partial Class Form1
         txtMostrar.FormattingEnabled = True
         txtMostrar.Location = New Point(43, 7)
         txtMostrar.Name = "txtMostrar"
-        txtMostrar.Size = New Size(241, 420)
+        txtMostrar.Size = New Size(241, 836)
         txtMostrar.TabIndex = 2
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(13F, 32F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(1060, 872)
         Controls.Add(txtMostrar)
         Controls.Add(txtBoton)
         Name = "Form1"
