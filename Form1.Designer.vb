@@ -28,7 +28,7 @@ Partial Class Form1
         ' 
         ' txtBoton
         ' 
-        txtBoton.Location = New Point(482, 269)
+        txtBoton.Location = New Point(483, 216)
         txtBoton.Name = "txtBoton"
         txtBoton.Size = New Size(368, 304)
         txtBoton.TabIndex = 0
